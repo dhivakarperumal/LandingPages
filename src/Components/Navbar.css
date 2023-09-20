@@ -1,0 +1,183 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav
+{
+    position: sticky;
+    top: 0px;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background-color: black;
+    
+}
+.logo
+{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+    color:green;
+    font-weight: bold;
+    font-family: 'Croissant One', cursive;
+}
+.nav-links
+{
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.home,
+.about,
+.services,
+.contact,
+.login
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+    margin: 0px 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.login
+{
+    border: solid 1px white;
+    border-radius: 5px;
+    padding:6px  17px;
+    color: orange;
+    
+   
+}
+.mobile-menu-icon
+{
+    display: none;
+}
+
+
+@media screen and (max-width:780px) {
+
+    .logo
+    {
+        display: flex;
+        position: absolute;
+        top: 15px;
+        left: 30px;
+    }
+    .nav-links
+    {
+        display: none;
+    }
+    .nav-links-mobile
+    {
+        position: absolute;
+        display: block;
+        list-style-type: none;
+        background: rgb(27, 27, 29);
+        left: 0;
+        top: 70px;
+        transition: all 0.5s ease-out;
+        width: 100%;
+    }
+    .home,
+    .about,
+    .services,
+    .contact,
+    .login
+    {
+        text-decoration: none;
+        text-align: center;
+        padding:30px ;
+        width: 100%;
+        transition: all 0.5s ease;
+        color: white;
+        
+    }
+    .login
+    {
+        border: none;
+        
+    }
+    .mobile-menu-icon
+    {
+        display: block;
+        position: absolute;
+        font-size: 30px;
+        color: white;
+        background-color: black;
+        border: none;
+        outline: none;
+        top: 20px;
+        right: 30px;
+    }
+}
+
+
+
+@media screen and (max-width:475px) {
+
+    .logo
+    {
+        display: flex;
+        position: absolute;
+        top: 15px;
+        left: 30px;
+    }
+    .nav-links
+    {
+        display: none;
+    }
+    .nav-links-mobile
+    {
+        position: absolute;
+        display: block;
+        list-style-type: none;
+        background: rgb(27, 27, 29);
+        left: 0;
+        top: 70px;
+        transition: all 0.5s ease-out;
+        width: 100%;
+    }
+    .home,
+    .about,
+    .services,
+    .contact,
+    .login
+    {
+        text-decoration: none;
+        text-align: center;
+        padding:30px ;
+        width: 100%;
+        transition: all 0.5s ease;
+        color: white;
+        
+    }
+    .login
+    {
+        border: none;
+        
+    }
+    .mobile-menu-icon
+    {
+        display:block;
+        position: absolute;
+        font-size: 30px;
+        color: white;
+        background-color: black;
+        border: none;
+        outline: none;
+        top: 20px;
+        right: 30px;
+    }
+}

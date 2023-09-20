@@ -1,0 +1,213 @@
+.boxes1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    gap: 35px;
+    background-color: rgb(204, 202, 202);
+}
+.box1
+{
+    width: 600px;
+    height: 420px;
+    /* border: solid 2px black; */
+    padding: 5px 5px;
+}
+.box1 img
+{
+    width: 550px;
+    height: 380px;
+    border-radius: 15px;
+    margin-top: 20px;
+    
+}
+.box1 h1
+{
+    margin: 30px 20px;
+    color: white;
+    font-size: 40px;
+}
+.box1 .for
+{
+    margin: 20px 20px;
+}
+.box1 input
+{
+   width: 400px;
+   height: 50px;
+   outline: none;
+   border: none;
+   border-radius: 5px;
+   padding: 0px 20px;
+   border-color: gray;
+}
+.box1 textarea
+{
+   width: 400px;
+   height: 50px;
+   outline: none;
+   border: none;
+   border-radius: 5px;
+   padding: 0px 20px;
+}
+.btns
+{
+    width: 400px;
+    padding: 15px;
+    background-color: white;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+}
+
+
+@media screen and (max-width:780px) {
+
+    .boxes1
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        margin-top: 2px;
+        gap: 30px;
+        background-color: rgb(212, 62, 87);
+        flex-direction: column;
+    }
+    .box1
+    {
+        width: 500px;
+        height: 420px;
+        /* border: solid 2px black; */
+        padding: 5px 5px;
+    }
+    .box1 img
+    {
+        width: 450px;
+        height: 380px;
+        border-radius: 15px;
+        margin-top: 20px;
+        
+    }
+    .box1 h1
+    {
+        margin: 30px 20px;
+        color: white;
+        font-size: 40px;
+    }
+    .box1 .for
+    {
+        margin: 20px 20px;
+    }
+    .box1 input
+    {
+       width: 400px;
+       height: 50px;
+       outline: none;
+       border: none;
+       border-radius: 5px;
+       padding: 0px 20px;
+       border-color: gray;
+    }
+    .box1 textarea
+    {
+       width: 400px;
+       height: 50px;
+       outline: none;
+       border: none;
+       border-radius: 5px;
+       padding: 0px 20px;
+    }
+    .btns
+    {
+        width: 400px;
+        padding: 15px;
+        background-color: white;
+        color: white;
+        font-weight: bolder;
+        border: none;
+        border-radius: 5px;
+        background-color: orange;
+    }
+    
+}
+
+
+@media screen and (max-width:475px) {
+
+    .boxes1
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        margin-top: 40px;
+        gap: 35px;
+        background-color: rgb(204, 202, 202);
+        flex-direction: column;
+    }
+    .box1
+    {
+        width: 350px;
+        height: 300px;
+        /* border: solid 2px black; */
+        padding: 5px 0px;
+    }
+    .box1 img
+    {
+        width: 350px;
+        height: 300px;
+        border-radius: 15px;
+        margin-top: 20px;
+        
+    }
+    .box1 h1
+    {
+        margin: 20px 20px;
+        color: white;
+        font-size: 30px;
+    }
+    .box1 .for
+    {
+        margin: 20px 20px;
+    }
+    .box1 input
+    {
+    width: 270px;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 20px;
+    border-color: gray;
+    }
+    .box1 textarea
+    {
+    width: 270px;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 20px;
+    }
+    .btns
+    {
+        width: 270px;
+        padding: 10px;
+        background-color: white;
+        color: white;
+        font-weight: bolder;
+        border: none;
+        border-radius: 5px;
+        background-color: orange;
+    }
+    
+}
+
